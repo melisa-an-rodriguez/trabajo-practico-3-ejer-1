@@ -1,24 +1,64 @@
-# Compiled class file
+# ========================================
+# JAVA
+# ========================================
+
+# Archivos compilados
 *.class
 
-# Log file
+# Archivos de logs
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Paquetes compilados
 *.jar
 *.war
-*.nar
 *.ear
+*.nar
 *.zip
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+
+# ========================================
+# NETBEANS
+# ========================================
+
+# Archivos generados al compilar
+**/build/
+**/dist/
+**/target/
+
+# Configuración privada de NetBeans
+**/nbproject/private/
+**/nbproject/private/**
+
+
+# ========================================
+# ARCHIVOS TEMPORALES DE JAVA
+# ========================================
+
 hs_err_pid*
 replay_pid*
+
+
+# ========================================
+# SISTEMA OPERATIVO
+# ========================================
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+
+# ========================================
+# EDITORES / IDE
+# ========================================
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
